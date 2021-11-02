@@ -1,0 +1,95 @@
+.custom-cloumn {
+  height: 600px;
+}
+.rowWithFullWidth {
+  height: 500px;
+  background-color: #f2f9f2;
+}
+.quotescontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.courbe-row {
+  height: 400px;
+}
+.custom-margin {
+  margin-inline-start: 1.5rem;
+  margin-top: 1rem;
+}
+.backroundimage {
+  position: relative;
+  overflow: hidden;
+  background: url(images/Courbe.svg) no-repeat;
+  background-size: 70%;
+}
+.groupe1 {
+  background: url(images/Tracé\ 372.svg) 0 0 no-repeat;
+  background-position: right;
+}
+.groupe2 {
+  background: url(images/Tracé\ 371.svg) 0 0 no-repeat;
+  background-position: right;
+}
+.groupe3 {
+  background: url(images/Tracé\ 370.svg) 0 0 no-repeat;
+  background-position: right;
+}
+.step3 {
+  margin-top: -4rem;
+  margin-left: -1rem;
+}
+
+@media only screen and (max-width: 750px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .custom-cloumn {
+    height: 760px;
+  }
+  .rowWithFullWidth {
+    height: 670px;
+    background-color: #f2f9f2;
+  }
+  .courbe-row {
+    height: 650px;
+  }
+  .backroundimage {
+    position: relative;
+    overflow: hidden;
+    background: url(images/Tracé\ 365.png) no-repeat;
+    background-size: auto 100%;
+  }
+  .custom-margin {
+    margin: 0;
+  }
+  .groupe1 {
+    height: 190px;
+  }
+  .groupe2 {
+    background-position: left;
+    height: 190px;
+  }
+  .groupe3 {
+    height: 190px;
+  }
+  .step3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .custom-cloumn {
+    height: 950px;
+  }
+  .rowWithFullWidth {
+    height: 760px;
+    background-color: #f2f9f2;
+  }
+  .backroundimage {
+    position: relative;
+    overflow: hidden;
+    background: url(images/Tracé\ 365.png) no-repeat;
+    background-size: auto 88%;
+  }
+}
